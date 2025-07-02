@@ -70,12 +70,13 @@ const toggleTheme = () => {
             </Link>
           ))}
           <a
-            href="/assets/resume.pdf"
-            download
-            className="btn resume-btn"
-          >
-            Download Resume
-          </a>
+  href="/portfolio/resume.pdf"
+  download="Ritu-Saxena-Resume.pdf"
+  className="btn resume-btn"
+>
+  Download Resume
+</a>
+
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'dark' ? <FaSun /> : <FaMoon />}
           </button>
